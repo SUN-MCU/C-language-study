@@ -9,7 +9,7 @@ int main(){
 		printf("This number is not a prime number");
 	}
 	else{
-		for (a=2;a*a<=b;a++){
+		for (a=2;a<b;a++){
 		if (b%a==0)
 		{
 		break;
@@ -20,7 +20,7 @@ int main(){
 		printf("This number is not a prime number");
 		} 
 		else {
-			printf("This number is a prime number5");
+			printf("This number is a prime number");
 		}
 	}
 	return 0;
